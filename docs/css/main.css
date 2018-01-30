@@ -129,9 +129,6 @@ body {
 .line {
   border-top: 1px solid #EAEFF5;
 }
-.footer {
-  background-color: #252525;
-}
 /*========== Mobile First Method  ==========*/
 /* Large Devices, Wide Screens - adaptive styles bofore 1200px */
 /* Medium Devices, Desktops - adaptive styles bofore 992px */
@@ -628,4 +625,39 @@ body {
 .button--orange:focus {
   background-color: #ffe400;
   color: #000;
+}
+.footer {
+  background-color: #252525;
+}
+.footer p {
+  color: #6c6c6c;
+}
+.footer__title {
+  font-size: 12px;
+  font-weight: 700;
+  color: #f7f8f9;
+  margin-bottom: 25px;
+  text-transform: uppercase;
+}
+.footer__nav {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  color: #6c6c6c;
+  margin-bottom: 57px;
+}
+.footer__nav li {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  line-height: 20px;
+  margin-top: 16px;
+}
+.footer__nav a {
+  text-decoration: none;
+  color: #6c6c6c;
+}
+.footer__nav a:hover {
+  text-decoration: none;
+  color: #ffc80a;
 }
